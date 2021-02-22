@@ -1,0 +1,45 @@
+.container{
+    width: 60%;
+    margin:auto;
+    position: fixed;
+    top: 25%;
+    left: 16%;
+    background-color: black;
+    padding: 40px;
+}
+.count{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    margin-bottom: 40px;
+   /* font-size: 80px;*/
+    text-align: center;
+   /* background-color: #666;*/
+   background-image: url(pic1.png);
+   background-size: cover;
+   background-repeat: no-repeat;
+    padding: 50px;
+    position: relative;
+  /*  padding-top: 100px;*/
+
+}
+.count span{
+    position: absolute;
+    top: 48%;
+    left: 52%;
+    font-size: 18px;
+    transform: translate(-50%,-50%);
+}
+.btns{
+    background-color: #333;
+    padding: 20px;
+    text-align: center;
+}
+.btn{
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 10px;
+    margin-left: 50px;
+    font-size: 20px;
+    cursor:pointer;
+}
